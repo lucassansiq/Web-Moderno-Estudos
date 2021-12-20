@@ -1,0 +1,32 @@
+*Sempre salvar antes de executar
+
+1)Sentença de Código
+Sentenças -> Frases
+-Em JS uma sentença de código pode ou não terminar com ;
+**Uma sentença de código pode ser em varias linhas
+	*Porém sempre o mais organizado possível
+-É um comando para o seu computador
+**A Ordem das setenças importam
+
+
+2)Bloco de Código
+Bloco -> Paragrafos
+-Um bloco é um agrupamento de Sentenças
+**Um bloco necessita de um propósito
+-Um Bloco em JS é definido em um par de Chaves {} 
+	*Pode abrir uma chave dentro de outra, ou seja, um bloco 	dentro de outro bloco de código desde que ele abre e
+	feche dentro deste bloco
+-Problemas dentro de chaves, o código é interrompido e tudo que estiver abaixo não rodará
+
+Organização do Código
+Feito em:
+-Pastas
+	-Arquivos
+		-Sentenças
+		-Blocos
+
+Dicas VS Code:
+(ctrl + /) : Comenta o codigo
+(Seleciona o codigo + tab) : Tab em um bloco
+(shift + tab) : Volta os espaços do tab
+(shift + alt + f) : Formata o código

@@ -1,0 +1,13 @@
+**Para funcionamento das aplicações necessario o download:
+Node JS:
+https://nodejs.org/en/
+
+Visual Studio Code:
+https://code.visualstudio.com/
+
+E do plugin de Execução de Código JS para o VS Code:
+Plugin Code Runner
+
+Para execução do código:
+Ctrl + Alt + N 
+
