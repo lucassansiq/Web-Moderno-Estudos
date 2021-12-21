@@ -30,3 +30,45 @@ Dicas VS Code:
 (Seleciona o codigo + tab) : Tab em um bloco
 (shift + tab) : Volta os espaços do tab
 (shift + alt + f) : Formata o código
+
+	DADOS
+
+Literal > Valores diretos
+Ex. console.log(10);
+
+	Variavel
+Armazenar uma informação 
+Ex. var quantidade = 10;
+
+**Nome composto em variavel, uma boa pratica é iniciar cada nova palavra com letra maiuscula
+Ex. precoFinal
+
+**Pode criar variavel sem o termo "Var" mas não é recomendado
+
+-A maneira que se cria variavel hoje em dia é usando o termo "let"
+Ex. let preco = 6.4;
+
+Estrutura da variavel > var/let identificador;
+			var/let identificador = atribuicao;
+
+**Uma boa definição dos nomes dos identificadores é muito importante!
+
+>Basicamente uma variavel você está definindo um espaço de memória para armazenar os dados desta variavel
+
+	Tipos de Dados - Basicos
+>typeof -> Mostra o tipo do dado
+Ex. console.log(typeof 10);
+
+Tipos
+number -> Todo e qualquer numero, não diferenciando numero decimal do numero inteiro
+
+string -> Sequencia de caracteres 
+
+boolean -> true(verdadeiro) ou false (falso)
+
+	Tranformando em constante
+>Definir a variavel como const
+Ex.const a = 5;
+-Uma constante não pode ser alterada, caso tenha tentativa ocorrerá erros no código
+**Uma boa pratica é em constantes ter seu identificador em maiusculo
+Ex. const PI = 3.141592;

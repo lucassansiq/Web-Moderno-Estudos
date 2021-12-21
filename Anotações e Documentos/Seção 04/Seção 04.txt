@@ -1,0 +1,54 @@
+	Visão Geral Algoritmo
+
+Algoritmo
+Sequência de passos
+1 -> 2 -> 3 -> 4 -> 5
+
+-Tem repetição 
+	-Repetir "x"vezes
+	-Repetir até ...
+-Também é possível tomar decisão 
+	>Com determinada condição executa o passo A ou o passo B 
+
+	Estrutura de Dados
+
+Estrutura de Dados <> Dado
+
+
+Estrutura de Dados -> Organizar e administrar o dado. Ele que determina as "Regras" dos dados.
+
+Ex. Uma LISTA de aprovados; uma FILA de banco; Uma PILHA Dde livros
+
+Fila: FIFO (Primeiro a entrar, primeiro a sair)
+Pilha: LIFO (Ultimo a entrar, primeiro a sair)
+
+Além de Organização em: Arvore, tabela ...
+
+----------------------------------------------------------------	
+
+	Organização JS
+
+>Organizado em Sentenças de Códigos terminadas em ; ou não
+	.Que agrupadas são organizadas em Blocos
+
+	Executar JavaScript
+
+-replit
+-jsfiddle.net
+-Console do browser
+-Terminal
+
+	Comentário
+
+-Faça comentario relevantes que acrescente algo. Evitar a redundancia por exemplo, a função se chamar fecharPedido e no comentario dizer que ele fecha o pedido.
+
+-Use identificadores faceis para todos
+
+**Preze pelo seu código, não precisa encher de comentario. Mantenha um código claro e limpo, comentando aquilo que tenha necessidade de comentario.
+
+	Variaveis e Constantes
+
+Variaveis(var,let) - Evite o uso de Var, use o Let
+Constante(const) - Constantes não pode ser alterado
+	*Quanto mais constantes melhor será para não ter erros de 	
+	alteração. Use sempre que seja algo fixo
