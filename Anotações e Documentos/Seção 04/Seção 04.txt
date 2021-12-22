@@ -52,3 +52,96 @@ Variaveis(var,let) - Evite o uso de Var, use o Let
 Constante(const) - Constantes não pode ser alterado
 	*Quanto mais constantes melhor será para não ter erros de 	
 	alteração. Use sempre que seja algo fixo
+
+
+	Tipagem 
+
+-JavaScript tem tipagem dinamica ou seja tipagem fraca
+
+	Number
+
+*Função para a escolha quantidade de casas decimais (toFixed())
+Ex.console.log(media.toFixed(2)) // Quantidade de casas decimais
+
+*Funcão para converter em binario (toString(2))
+Ex.console.log(media.toString(2)) //em binario
+
+**Number com N maisculo é uma função, com n minusculo é um tipo
+
+*Contas infinitas não ocorre erro ele apenas retorna um tipo Infinity
+
+*Não multiplica String que não contenham apenas numeros, retorna NaN
+
+	Math
+
+*Valor de PI exato (Math.PI)
+*Função para calculo exponencial (Math.pow)
+Ex.const area = Math.PI * Math.pow(raio,2);
+
+	String
+
+-Delimita uma String com "", '' ou `` 
+
+*Metodo para encontrar um caracter dentro da String (.charAt(num))
+Ex.console.log(escola.charAt(4));
+
+*Metodo para dizer o codigo do caracter na tabela unicode (charCodeAt(num))
+Ex.console.log(escola.charCodeAt(3));
+
+*Metodo para encontrar uma String dentro de outra String (.indexOf("val"))
+Ex.console.log(escola.indexOf('3'));
+
+*Metodo para imprimir uma substring pelo indice (.subString(apartir) /  .subString(de,ate))
+Ex.console.log(escola.substring(1));
+   console.log(escola.substring(0,3));
+
+*Metodo para concatenar (.concat);
+Ex.console.log("Escola".concat(escola).concat("!"));
+
+*Substituir caracteres dentro de uma String (.replace("inicial","final))
+Ex.console.log(escola.replace("3","e"));
+
+*Tranformar uma String em um Array passando como parametro o divisor (.split("divisor"))
+Ex.console.log('Ana,Maria,Pedro'.split(','));
+
+**Concatenacao com +, em caso de numeros ele não soma e sim concatena mesmo, diferente das outras operações que ele faz a conta
+
+	Template String
+
+-Concatenações desta maneira são mais limpas no código, além de considerar quebra de linhas, tabs dentre outros
+Ex.const template = `
+    Olá
+    ${nome}!`;
+	**Importante deve estar entre crases ``
+	  E todo processamento ou variavel deve estar dentro ${}
+
+*Função para tranformar uma string para letra maiuscula
+Ex.const up = texto => texto.toUpperCase();
+console.log(`Ei... ${up('cuidado')} !`);
+
+Resultado:Ei... CUIDADO !
+
+	Boolean
+
+-Para retornar um boolean em um valor usamos a negação duas vezes.
+Ex.isAtivo = 1;
+console.log(!!isAtivo)
+Resultado:true
+
+**Todos os valores são verdadeiro com excessão do Zero
+
+-É possivel fazer operacoes logicas (or,not,and) em cima de variaveis
+Ex.console.log(`pra finalizar...
+${!! ('' || null || 0 || ' ')}
+`);
+Resultado : true
+
+Ou então...
+Ex.
+let nome = '';
+console.log(nome || 'Desconhecido');
+>Neste caso acima, caso a variavel nome não esteja preenchida (Retorne False) será retornado a String Desconhecido.
+
+
+
+
