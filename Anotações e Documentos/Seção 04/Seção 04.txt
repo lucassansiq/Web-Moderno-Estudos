@@ -142,6 +142,68 @@ let nome = '';
 console.log(nome || 'Desconhecido');
 >Neste caso acima, caso a variavel nome não esteja preenchida (Retorne False) será retornado a String Desconhecido.
 
+	Array
+
+- Declarando: 
+const valores = [val1, val2,val3...]
+
+-Incluindo valores:
+valores[indice] = valor
+valores.push(val1,val2,val3)
+
+-Excluindo valoress:
+console.log(valores.pop()) -> Retira o ultimo valor
+delete valores[indice]     -> Retira pelo indice
+
+	Object
+
+- Um par de chaves {} representa um objeto
+- Um objeto é uma colecao de chave valor, um grupo de pares de chaves (nome)  e valores.
+	**Objeto não é Json
+
+Ex.
+prod1.nome = 'Celular Ultra Mega' //Identificador(nome) do objeto e valor(celular..)
+prod1.preco = 499.30 //Chave(preco) e Valor(499.30) do objeto
+
+const prod2 = {
+    nome: 'Camisa Polo',
+    preco: 79.90
+}
+
+**A Variavel que armazena o Object, armazena o local onde é armazenado o objeto
+- Quando uma variaval recebe outra variavel object, consegue se alterar o objeto pela variavel nova
+Ex.
+cons a = {nome: 'lucas'} 
+console.log(a)
+Resultado: {nome:'lucas'}
+
+const b = a
+a.nome = 'novo'
+console.log(a)
+Resultado: {nome: 'novo'} 
+
+
+	Null e Undefiened
+
+Undefiened
+- Variaveis não inicializadas (Sem valor atribuido) 
+
+Null
+- Atribuido a variavel. Ausente de valor porém definido a variavel
+  **Sempre use o Null caso queira zerar o valor de uma variavel
+
+	Função
+
+**Se JS fosse um País a Função seria o presidente
+
+Tipos Function:
+- Object
+- Class
+
+-> Função é um bloco de codigo nomeado, onde pode ser reusado no código
+- Nele pode ser inserido um parametro ou não, onde tem um processo com linhas de codigo e retorna ou não um valor
+
+
 
 
 
