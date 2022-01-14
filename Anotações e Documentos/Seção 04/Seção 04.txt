@@ -203,6 +203,77 @@ Tipos Function:
 -> Função é um bloco de codigo nomeado, onde pode ser reusado no código
 - Nele pode ser inserido um parametro ou não, onde tem um processo com linhas de codigo e retorna ou não um valor
 
+* Pode armazenar uma funcao em uma variavel 
+Ex. const imprimirSoma = function(a,b) {
+console.log(a+b)
+}
+
+Funcao Arroy
+- Não faz uso da palavra function
+Ex. const soma => (a,b){
+return a+b
+}
+
+Retorno implicito
+
+-Quando sua funcao tiver apenas uma linha de codigo pode fazer da seguinte maneira
+Ex. const subtracao = (a,b) => a-b
+
+	Variaveis
+Escopo
+-Local onde sua variavel é visivel/acessivel 
+Ex. uma variavel é visivel apenas dentro do seu bloco de codigo
+
+VAR
+>>A variavel VAR é visivel dentro e fora do seu bloco 
+**Com excessao de uma Function, ela só será visivel dentro da funcao
+
+- Evite usar variavel em um escopo global, pois apesar de parecer vantajoso usar a qualquer momento é muito arriscado que a variavel seja sobrescrita 
+
+LET
+- Diferente do VAR ele é visivel apenas dentro do seu bloco 
+
+	Loop
+-Repetir o código varias vezes 
+Ex.for(var/let = 0; i < 10; i++){
+console.log(i)
+}
+----------------------------Exemplo-------------------
+const funcs = []
+
+for(var i = 0; i<10; i++){
+    funcs.push(function(){
+        console.log(i)
+    })
+}
+
+funcs[2]()
+funcs[8]()
+
+=> O que voce acha que acontece?
+Em teoria mostraria na tela os numeros 2 e 8 porem por a variavel ser declarado com VAR ira mostrar 10 as duas vezes por um problema da linguagem
+- Para corrigir basta no for usando ao inves de VAR usar a declaracao com LET
+---------------------------------------------------------
+
+	Hoisting
+
+-Ao declarar uma variavael vom Var em qualquer lugar do texto, ela sofre o Hoisting, ou seja, ela é jogada pra cima
+--Com LET isso não acontece
+
+	Função vd Objeto
+- A função pode ser instanciada e a partir dessa instancia que seria um objeto 
+	
+	Par Nome Valor
+
+-O contexto lexico é quando sua variavel é declarada no contexto fisico do seu código, quando que ela é declarada
+Ex. Uma variavel declarada no contexto fora de uma Function e uma variavel com o mesmo nome declarada dentro de uma Function, não ira ter conflito por estar em contextos diferentes
+
+	Notação Ponto
+- A Notacao this faz com que a variavel ou funcao dentro de uma funcao fica publica
+
+	
+
+
 
 
 
