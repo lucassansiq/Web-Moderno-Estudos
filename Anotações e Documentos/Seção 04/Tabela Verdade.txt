@@ -1,0 +1,28 @@
+NEGACAO
+
+V -> F
+F -> V
+
+OU
+V ou F -> V
+F ou V -> V
+V ou V -> V
+F ou F -> F
+
+E
+V e F -> F
+F e V -> F
+V e V -> V
+F e F -> F
+
+Condicional 
+V -> F = F
+F -> V = V
+V -> V = V
+F -> F = V
+
+Bicondicional 
+V <-> F = F
+F <-> V = F
+V <-> V = V
+F <-> F = V

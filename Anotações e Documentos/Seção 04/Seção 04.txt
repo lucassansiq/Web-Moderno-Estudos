@@ -271,7 +271,54 @@ Ex. Uma variavel declarada no contexto fora de uma Function e uma variavel com o
 	Notação Ponto
 - A Notacao this faz com que a variavel ou funcao dentro de uma funcao fica publica
 
-	
+	Operador Destructuring
+
+- Ele tinha alguma coisa de um objeto/Estrutura
+- Quando usa como objeto utiliza {};
+- Quando usa como array utiliza [] 
+
+Ex. const {nome, idade} = pessoa
+- Ele esta tirando o atributo nome e idade do objeto pessoa.
+
+**O operador destructuring é utilizado no momento em que ele é declarado como uma const por exemplo sem um nome.
+Ex. const {a} - Para objeto
+    const [a] - para array
+
+	Operadores Aritmeticos
+
+**Operadores aritmeticos são operadores binarios
+  **Mesmo com varias operações ele fara sempre de duas em duas
+
+	Operadores Relacional
+
+- == Igual
+  === estritamente igual
+  != diferente
+  !== estritamente diferente
+
+**A igualdade é mais adequado utilizar o estritamente igual ou diferente. Pois leva em consideracao o tipo da variavel e o seu conteudo 
+
+	Operadores  Logico
+
+Tabela Verdade - TXT NO ARQUIVO
+
+E -> &&
+OU -> ||
+NOT -> !
+
+	Operadores Ternarios
+
+-São operadores com três operacões na sentença
+//Basicamente um if e else reduzido
+Ex.const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
+
+-O que acontece aqui, a constante resultado na verdade é uma função arrow na qual esta recebendo uma operação onde se a nota for maior ou igual a 7 retorna aprovado se não retorna Reprovado
+**Nota não é uma variavel declarada antes
+
+-É utilizado depois como função
+Ex.console.log(resultado(7.1))
+
+
 
 
 
