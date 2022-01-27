@@ -269,7 +269,7 @@ Em teoria mostraria na tela os numeros 2 e 8 porem por a variavel ser declarado 
 Ex. Uma variavel declarada no contexto fora de uma Function e uma variavel com o mesmo nome declarada dentro de uma Function, não ira ter conflito por estar em contextos diferentes
 
 	Notação Ponto
-- A Notacao this faz com que a variavel ou funcao dentro de uma funcao fica publica
+- A Notacao THIS faz com que a variavel ou funcao dentro de uma funcao fica publica
 
 	Operador Destructuring
 
@@ -318,6 +318,13 @@ Ex.const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
 -É utilizado depois como função
 Ex.console.log(resultado(7.1))
 
+	Window
+
+- Uma variavel de escopo global. Declarando com VAR a notação window. vizualiza essa variavel
+	-já declarando com Let ou Const não é
+	visivel
+- Uma function também fica visivel na anotação Window. 
+***Dentro do Node.Js o window equivale a notacao GLOBAL 
 
 
 
