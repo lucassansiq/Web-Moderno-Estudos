@@ -3,3 +3,37 @@
 *Quando dentro do if não há condição apenas uma variavel ou valor, ele levará em consideração que esse valor será verdadeiro. Como se implicitamente tivesse (valor == true) 
 Ex. if (valor) console.log(valor)
 
+	Switch
+
+- Switch não é uma uma operação relacional, é uma seleção multipla 
+
+*Ele permite deixar um case vazio, assim ele automaticamente ele irá executar o comando do case abaixo caso seja selecionado.
+Ex.
+const imprimirResultado = function (nota){
+    switch (Math.floor(nota)){
+        case 10:
+        case 9:
+            console.log('Quadro de Honra')
+    }
+}
+
+*Por padrão após todo comando dentro de uma CASE precisa ter um BREAK pois ao não ser colocado quando executar e entrar dentro de uma CASE todos os comandos abaixo serão executados
+
+	REPETIÇÃO
+
+- É importante que use a estrutura de controle que mais se adequa ao caso de uso
+
+WHILE
+
+-É focado em repetições quando se tem uma quantidade indeterminada de vezes, porém pode ser usado em quantidade determinadas
+
+DO WHILE
+
+-Garante que rode o bloco  de código pelo menos uma vez
+
+BREAK/CONTINUE
+
+- O BREAK interrompe toda a repetição
+- O CONTINUE  interrompe aquela interação e vai para a próxima
+
+
